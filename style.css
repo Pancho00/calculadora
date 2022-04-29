@@ -27,3 +27,65 @@
     background-color:rgb(128, 93, 161);
 
 }
+body{
+    background: #000000;
+    color: #fff;}
+  #contenedor{
+    margin:auto;
+    margin-top: 50px;
+    width:315px;
+    height:700px;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+  }
+  #botones1{
+    display: flex;
+    justify-content: flex-start;
+  }
+  #botones1 .button{
+      width: 75px;
+      height: 75px;
+      font-size: 50px;
+      margin: 2px;
+      cursor: pointer;
+      font-family: 'Lekton', sans-serif;
+      background: rgb(255,69,0);
+      color: white;
+      border-radius: 20px;
+      border: 2px solid;
+      border-color: rgb(255,40,0);
+  }
+  #botones2{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-end;
+  }
+  #botones2 .button{
+    width: 75px;
+      height: 75px;
+      font-size: 50px;
+      margin: 2px;
+      cursor: pointer;
+      font-family: 'Lekton', sans-serif;
+      background: rgb(50,20,255);
+      color: white;
+      border-radius: 20px;
+      border: 2px solid;
+      border-color: rgb(40,0,255);
+  }
+  .buttond{
+    width: 75px;
+      height: 75px;
+      font-size: 50px;
+      margin: 2px;
+      cursor: pointer;
+      font-family: 'Lekton', sans-serif;
+      background: rgb(50,20,255);
+      color: white;
+      border-radius: 20px;
+      border: 2px solid;
+      border-color: rgb(40,0,255);
+  }
+  

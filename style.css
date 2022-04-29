@@ -27,6 +27,9 @@ body{
     font-family: 'Lekton', sans-serif;
     border-radius: 20px;
     border: 2px solid;
+    box-shadow: 2px 1px 38px -7px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 2px 1px 38px -7px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 1px 38px -7px rgba(0,0,0,0.75);
 }
   .azul{
       background: rgb(50,20,255);

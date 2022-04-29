@@ -8,6 +8,7 @@ body{
     width:315px;
     height:400px;
     background-color: gray;
+    border-radius: 20px;
   }
   h1{
     display: flex;

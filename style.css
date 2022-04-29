@@ -1,25 +1,32 @@
-
-body{
+body {
     background: #000000;
-    color: #fff;}
-  #contenedor{
-    margin:auto;
+    color: #fff;
+}
+
+#contenedor {
+    margin: auto;
     margin-top: 50px;
-    width:315px;
-    height:400px;
+    padding: 12px;
+    width: 315px;
+    height: 500px;
     background-color: gray;
     border-radius: 20px;
-  }
-  h1{
+}
+
+h1 {
     display: flex;
     justify-content: center;
-  }
-  .flexbotones{
+    margin: 2px;
+    font-family: 'Lekton', sans-serif;
+}
+
+.flexbotones {
     display: flex;
     justify-content: flex-start;
-  }
+}
 
-  .button{
+.button {
+    cursor: pointer;
     width: 75px;
     height: 75px;
     font-size: 50px;
@@ -27,26 +34,58 @@ body{
     font-family: 'Lekton', sans-serif;
     border-radius: 20px;
     border: 2px solid;
-    box-shadow: 2px 1px 38px -7px rgba(0,0,0,0.75);
-  -webkit-box-shadow: 2px 1px 38px -7px rgba(0,0,0,0.75);
-  -moz-box-shadow: 2px 1px 38px -7px rgba(0,0,0,0.75);
-}
-  .azul{
-      background: rgb(50,20,255);
-      color: white;
-      border-color: rgb(40,0,255);
-  }
-
-  .naranjo{
-    background: rgb(255,69,0);
-      color: white;
-      border-color: rgb(255,40,0);
+    box-shadow: 2px 1px 38px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 1px 38px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 1px 38px -7px rgba(0, 0, 0, 0.75);
 }
 
-.blanco{
+.azul {
+    background: rgb(50, 20, 255);
+    color: white;
+    border-color: rgb(40, 0, 255);
+}
+
+.azul:hover {
+    background-color: rgb(27, 13, 114);
+    border-color: white;
+    box-shadow: none;
+}
+
+.naranjo {
+    background: rgb(255, 69, 0);
+    color: white;
+    border-color: rgb(255, 40, 0);
+}
+
+.naranjo:hover {
+    background-color: rgb(192, 56, 7);
+    border-color: white;
+    box-shadow: none;
+}
+
+.blanco {
     background: white;
-      color: black;
-      border-color: white;
+    color: black;
+    border-color: white;
 }
-  
-  
+
+.blanco:hover {
+    background: rgb(228, 228, 228);
+    border-color: rgb(228, 228, 228);
+    box-shadow: none;
+}
+
+.box {
+    width: 300px;
+    height: 100px;
+    border: 10px;
+    border-radius: 20px;
+}
+
+.resultado {
+    text-align: right;
+    width: 100%;
+    height: 90%;
+    font-size: 50px;
+    border-radius: 0.5em;
+}

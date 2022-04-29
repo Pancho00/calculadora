@@ -1,0 +1,19 @@
+#botones{
+    color:black;
+    align-self: center;
+    border-radius: 15px;
+}
+
+#botones:hover{
+    color:black;
+    align-self: center;
+    border-radius: 15px;
+    size: 115%;
+}
+
+.numero{
+    background-color: antiquewhite;
+}
+.numero{
+    background-color: burlywood;
+}

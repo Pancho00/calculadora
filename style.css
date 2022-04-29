@@ -1,32 +1,4 @@
-#botones{
-    color:black;
-    align-self: center;
-    border-radius: 15px;
-}
 
-#botones:hover{
-    color:black;
-    align-self: center;
-    border-radius: 15px;
-    size: 115%;
-}
-
-.numero{
-    background-color: antiquewhite;
-}
-.numero{
-    background-color: burlywood;
-}
-
-.operacion{
-    color: azure;
-    background-color:rgb(123, 70, 173);
-}
-.operacion:hover{
-    color: azure;
-    background-color:rgb(128, 93, 161);
-
-}
 body{
     background: #000000;
     color: #fff;}
@@ -40,52 +12,36 @@ body{
     display: flex;
     justify-content: center;
   }
-  #botones1{
+  .flexbotones{
     display: flex;
     justify-content: flex-start;
   }
-  #botones1 .button{
-      width: 75px;
-      height: 75px;
-      font-size: 50px;
-      margin: 2px;
-      cursor: pointer;
-      font-family: 'Lekton', sans-serif;
-      background: rgb(255,69,0);
+
+  .button{
+    width: 75px;
+    height: 75px;
+    font-size: 50px;
+    margin: 2px;
+    font-family: 'Lekton', sans-serif;
+    border-radius: 20px;
+    border: 2px solid;
+}
+  .azul{
+      background: rgb(50,20,255);
       color: white;
-      border-radius: 20px;
-      border: 2px solid;
+      border-color: rgb(40,0,255);
+  }
+
+  .naranjo{
+    background: rgb(255,69,0);
+      color: white;
       border-color: rgb(255,40,0);
-  }
-  #botones2{
-    display:flex;
-    flex-direction: column;
-    align-items:flex-end;
-  }
-  #botones2 .button{
-    width: 75px;
-      height: 75px;
-      font-size: 50px;
-      margin: 2px;
-      cursor: pointer;
-      font-family: 'Lekton', sans-serif;
-      background: rgb(50,20,255);
-      color: white;
-      border-radius: 20px;
-      border: 2px solid;
-      border-color: rgb(40,0,255);
-  }
-  .buttond{
-    width: 75px;
-      height: 75px;
-      font-size: 50px;
-      margin: 2px;
-      cursor: pointer;
-      font-family: 'Lekton', sans-serif;
-      background: rgb(50,20,255);
-      color: white;
-      border-radius: 20px;
-      border: 2px solid;
-      border-color: rgb(40,0,255);
-  }
+}
+
+.blanco{
+    background: white;
+      color: black;
+      border-color: white;
+}
+  
   

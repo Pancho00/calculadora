@@ -17,3 +17,13 @@
 .numero{
     background-color: burlywood;
 }
+
+.operacion{
+    color: azure;
+    background-color:rgb(123, 70, 173);
+}
+.operacion:hover{
+    color: azure;
+    background-color:rgb(128, 93, 161);
+
+}
